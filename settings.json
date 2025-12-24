@@ -1,0 +1,32 @@
+{
+  "repo_path": "D:/Projetos/SandBox/Projetos/AutoFeedr-V2",
+  "git_remote": "origin",
+  "git_branch": "main",
+  "timezone": "America/Sao_Paulo",
+  "max_retries": 2,
+  "backoff_seconds": 10,
+  "schedule": {
+    "monday": [
+      {
+        "time": "09:00",
+        "difficulty": "easy",
+        "tags": ["math", "greedy"],
+        "language": "python",
+        "commit_message_template": "chore(cf): add {slug} ({difficulty})"
+      },
+      {
+        "time": "18:00",
+        "difficulty": "medium",
+        "tags": ["dp"],
+        "language": "python"
+      }
+    ],
+    "wednesday": [
+      {
+        "time": "19:30",
+        "rating_range": [1200, 1600],
+        "language": "python"
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+- Li o enunciado no link oficial antes de propor uma estrategia.
+- Defini um plano de leitura e escrita de entrada/saida.
+- Separei pontos de possiveis otimizações.
+- TODO: registrar insights quando a solucao real estiver pronta.
